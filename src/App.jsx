@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import MovieList from "./MovieList";
 import GenreFilter from "./GenreFilter";
 import { movies, genres } from "./data";
+import "./App.css";
 
 function App() {
   const [selectedGenre, setSelectedGenre] = useState("");
